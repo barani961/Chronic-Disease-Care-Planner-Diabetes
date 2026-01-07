@@ -1,0 +1,14 @@
+{
+  "user_profile": {
+    "age": 45,
+    "diet_type": "vegetarian",
+    "region": "India",
+    "activity_level": "low"
+  },
+  "health_data": {
+    "avg_fasting_glucose": 160,
+    "avg_post_meal_glucose": 210,
+    "readings_count": 7,
+    "data_period": "past_week"
+  }
+}

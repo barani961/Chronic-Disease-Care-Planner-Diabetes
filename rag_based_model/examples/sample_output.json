@@ -1,0 +1,109 @@
+{
+  "safety": {
+    "level": "caution",
+    "flags": [
+      "Fasting glucose above target range",
+      "Post-meal glucose above target"
+    ],
+    "escalation_required": false,
+    "message": "\u26a0\ufe0f Your fasting glucose is above the ADA target range (80-130 mg/dL). Consider discussing this with your healthcare provider."
+  },
+  "plan": {
+    "user_profile": {
+      "age": 45,
+      "diet_type": "vegetarian",
+      "region": "India",
+      "activity_level": "low"
+    },
+    "health_data": {
+      "avg_fasting_glucose": 160,
+      "avg_post_meal_glucose": 210,
+      "readings_count": 7,
+      "data_period": "past_week"
+    },
+    "guidelines_used": {
+      "glycemic_targets": {
+        "fasting": "80-130 mg/dL",
+        "post_meal": "<180 mg/dL",
+        "hba1c": "<7.0%",
+        "population": "Most nonpregnant adults with diabetes"
+      },
+      "citations": [
+        "ADA Standards of Care"
+      ]
+    },
+    "food_plan": {
+      "meal_plan": {
+        "breakfast": "vegetable oats",
+        "lunch": "Small portion of brown rice, dal (lentils), mixed vegetable curry",
+        "dinner": "vegetable soup",
+        "snacks": "roasted chana, nuts (almonds, walnuts), sprouts"
+      },
+      "rules_applied": [
+        "High glucose levels \u2192 Prioritize low GI foods",
+        "ADA guideline \u2192 Minimum 25-30g fiber per day",
+        "Post-meal glucose elevated \u2192 Limit refined carbohydrates",
+        "Fasting glucose significantly elevated \u2192 Emphasize portion control"
+      ],
+      "justification": "Your average fasting glucose (160 mg/dL) exceeds the ADA target range (80-130 mg/dL). Your average post-meal glucose (210 mg/dL) is above the recommended target (<180 mg/dL). This meal plan emphasizes low glycemic index foods and high fiber content as recommended by ADA guidelines.",
+      "nutritional_focus": [
+        "low_glycemic_index",
+        "high_fiber"
+      ],
+      "foods_to_limit": [
+        "refined carbohydrates",
+        "sugary beverages",
+        "added sugars"
+      ]
+    },
+    "activity_plan": {
+      "activity_plan": {
+        "daily_aerobic": {
+          "activity": "brisk walking",
+          "duration_minutes": 20,
+          "intensity": "low",
+          "alternatives": [
+            "cycling on flat terrain",
+            "water aerobics"
+          ]
+        },
+        "weekly_schedule": {
+          "aerobic_days": 3,
+          "rest_days": 4,
+          "note": "No more than 2 consecutive days without activity"
+        },
+        "resistance_training": {
+          "exercises": "bodyweight exercises (wall push-ups, chair squats)",
+          "frequency": "2-3 days per week on non-consecutive days",
+          "focus": "All major muscle groups"
+        },
+        "flexibility": {
+          "exercises": "Stretching or yoga",
+          "frequency": "2-3 times per week",
+          "duration": "10-15 minutes"
+        }
+      },
+      "progression": {
+        "week_1_2": "Start with recommended duration and frequency",
+        "week_3_4": "Increase duration by 5 minutes per session",
+        "week_5_6": "Increase to 4 days per week if comfortable",
+        "week_7_plus": "Progress toward 150 minutes per week (30 min \u00d7 5 days)",
+        "principle": "Increase by no more than 10% per week"
+      },
+      "rules_applied": [
+        "Low activity level \u2192 Start with conservative plan and progress gradually",
+        "Elevated glucose \u2192 Emphasize aerobic activity for glucose control"
+      ],
+      "justification": "Starting with a conservative plan is important for building sustainable exercise habits and reducing injury risk. Regular physical activity can help improve glucose control (current average: 160 mg/dL). This plan follows ADA recommendations of 150 minutes per week of moderate-intensity activity of moderate-intensity aerobic activity.",
+      "safety_reminders": [
+        "Check blood glucose before and after exercise",
+        "Carry a fast-acting carbohydrate source (glucose tablets, juice)",
+        "Stay well hydrated before, during, and after exercise",
+        "Wear proper footwear to prevent foot injuries",
+        "Stop exercising if you feel dizzy, short of breath, or experience chest pain"
+      ]
+    }
+  },
+  "disclaimer": "\u26a0\ufe0f IMPORTANT DISCLAIMER: This is NOT medical advice. This system provides educational information based on public clinical guidelines. Always consult with your healthcare provider before making any changes to your diabetes management plan. In case of emergency, contact your doctor or emergency services immediately.",
+  "generated_at": "This plan is generated based on clinical guidelines and your reported data."
+}
