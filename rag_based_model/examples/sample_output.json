@@ -61,15 +61,15 @@
         "daily_aerobic": {
           "activity": "brisk walking",
           "duration_minutes": 20,
-          "intensity": "low",
+          "intensity": "light_to_moderate",
           "alternatives": [
             "cycling on flat terrain",
             "water aerobics"
           ]
         },
         "weekly_schedule": {
-          "aerobic_days": 3,
-          "rest_days": 4,
+          "aerobic_days": 4,
+          "rest_days": 3,
           "note": "No more than 2 consecutive days without activity"
         },
         "resistance_training": {
@@ -84,17 +84,14 @@
         }
       },
       "progression": {
-        "week_1_2": "Start with recommended duration and frequency",
-        "week_3_4": "Increase duration by 5 minutes per session",
-        "week_5_6": "Increase to 4 days per week if comfortable",
-        "week_7_plus": "Progress toward 150 minutes per week (30 min \u00d7 5 days)",
-        "principle": "Increase by no more than 10% per week"
+        "current": "Maintain 20 minutes, 4 days/week",
+        "next_step": "Gradually increase intensity or add variety",
+        "principle": "Progress based on comfort and glucose response"
       },
       "rules_applied": [
-        "Low activity level \u2192 Start with conservative plan and progress gradually",
-        "Elevated glucose \u2192 Emphasize aerobic activity for glucose control"
+        "Elevated glucose (\u2265150) \u2192 Moderate activity (20 min)"
       ],
-      "justification": "Starting with a conservative plan is important for building sustainable exercise habits and reducing injury risk. Regular physical activity can help improve glucose control (current average: 160 mg/dL). This plan follows ADA recommendations of 150 minutes per week of moderate-intensity activity of moderate-intensity aerobic activity.",
+      "justification": "Regular physical activity can help improve glucose control (current: 160 mg/dL). Starting conservatively is important for building sustainable exercise habits. This plan follows ADA recommendations for diabetes management.",
       "safety_reminders": [
         "Check blood glucose before and after exercise",
         "Carry a fast-acting carbohydrate source (glucose tablets, juice)",
