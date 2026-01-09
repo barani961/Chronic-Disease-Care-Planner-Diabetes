@@ -8,3 +8,4 @@ patients = db["patients"]
 logs = db["logs"]
 plans = db["plans"]
 alerts = db["alerts"]
+
