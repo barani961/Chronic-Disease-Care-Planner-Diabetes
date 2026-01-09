@@ -320,8 +320,7 @@ const DashboardPage = () => {
         <p className="text-gray-600 mt-1">Welcome back, {state.user.username}</p>
       </div>
 
-      <Disclaimer text="This application supports daily care routines. It does not provide medical advice." />
-
+     
       {/* Last Test Result */}
       <div>
         <h2 className="text-lg font-medium text-gray-900 mb-4">Last Test Result</h2>
@@ -389,7 +388,6 @@ const DashboardPage = () => {
           })()}
         </div>
 
-        <Disclaimer text="Diet plans are general guidance only. Consult your clinician for personalized advice." />
       </Card>
 
       {/* Today Activity */}
@@ -657,7 +655,7 @@ const DietPlanPage = () => {
         <p className="text-gray-600 mt-1">Select a day to view dietary guidance</p>
       </div>
 
-      <Disclaimer text="Diet plans are general guidance only. Consult your clinician for personalized advice." />
+     
 
       <div className="grid grid-cols-12 gap-6 mt-6">
         {/* Left narrow column for day selection */}
